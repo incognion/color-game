@@ -1,4 +1,6 @@
 
+// Panda Life
+
 let boxes = document.getElementsByClassName('box')
 let topHead = document.getElementById('topHead')
 let rgbValue = document.getElementById('rgbValue')
