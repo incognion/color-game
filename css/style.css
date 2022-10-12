@@ -1,4 +1,3 @@
-
 /* Panda Life */
 
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
@@ -19,7 +18,8 @@ body {
 h1 {
   font-size: 40px;
 }
-a, a:hover{
+a,
+a:hover {
   text-decoration: none;
   color: white;
 }
@@ -66,10 +66,28 @@ nav a:hover {
     max-width: 600px;
     justify-content: space-between;
   }
-  h1{
+  h1 {
     font-size: 55px;
   }
-  h2{
+  h2 {
     font-size: 45px;
   }
+}
+
+/*RESET BUTTON*/
+
+.reload-btn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.reload-icon {
+  margin-left: -42px;
+  margin-bottom: 5px;
+}
+
+.Reload {
+  display: flex;
+  gap: 7px;
+  align-items: center;
 }
