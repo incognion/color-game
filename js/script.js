@@ -9,7 +9,6 @@ let medium = document.getElementById("medium");
 let hard = document.getElementById("hard");
 const reloadIcon = document.querySelector(".reload-icon");
 const reloadBtn = document.querySelector(".reload-btn");
-// const retryButtonPosition;
 
 function randomRGBvalues() {
   let r = Math.floor(Math.random() * 256);
@@ -59,7 +58,6 @@ function rightPick() {
   result.innerHTML = "Correct&#128526;";
   replay.textContent = "play again";
   console.log(reloadIcon);
-  reloadIcon.style.visibility = "visible";
 }
 
 // DECIDER
@@ -141,6 +139,8 @@ for (let i = 0; i < 2; i++) {
   });
 }
 
+//ADDING THIS FUNCTION FOR THE RESET BUTTON
+
 reloadBtn.addEventListener("click", function () {
   console.log("CURRENT ACTIVE");
   replay.textContent = "new colors";
@@ -158,5 +158,4 @@ reloadBtn.addEventListener("click", function () {
     boxes[i].style.visibility = "hidden";
   }
   decider();
-  reloadIcon.style.visibility = "hidden";
 });
