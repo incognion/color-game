@@ -82,12 +82,11 @@ nav a:hover {
   border-radius: 5px;
 }
 .reload-icon {
-  margin-left: -42px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.Reload {
-  display: flex;
+ .Reload {
+  display: inline-flex;
   gap: 7px;
   align-items: center;
 }
