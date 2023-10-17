@@ -60,6 +60,7 @@ nav a:hover {
 #result {
   text-shadow: 1px 1px 7px #888;
 }
+
 @media (min-width: 600px) {
   .flex {
     display: flex;
