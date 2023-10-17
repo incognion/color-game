@@ -57,7 +57,6 @@ git push -u origin <your_branch_name>
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
-
 **14.** Click on `Create Pull Request`.
 
 **15** Voila! You have made a PR to this Repository. Sit back patiently and relax while the your PR is reviewed. 
